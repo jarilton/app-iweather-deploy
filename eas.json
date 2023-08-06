@@ -5,8 +5,13 @@
   "build": {
     "preview": {
       "android": {
-        "buildType": "apk"
+        "distribution": "internal"
       },
+      "env": {
+        "EXPO_PUBLIC_WEATHER_APP_ID": "910e6b400acc15c8ebb4972fb84ced90"
+      }
+    },
+    "production": {
       "env": {
         "EXPO_PUBLIC_WEATHER_APP_ID": "910e6b400acc15c8ebb4972fb84ced90"
       }
